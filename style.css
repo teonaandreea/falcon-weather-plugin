@@ -1,0 +1,26 @@
+.wrap{ position: relative }
+.items{ width: 50%; 
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.titles, .degrees, .description, .wind, .clouds {font-family: 'Open Sans';}
+
+.titles {color: #4d4d4d;}
+.degrees {
+    font-size: 2.3em;
+    color: #333333;
+}
+.description{
+    margin-bottom: 0;
+    color: #636363;
+}
+.wind, .clouds{
+    font-size: 0.7em;
+    margin: 0; padding: 0;
+    color: #8D8D8D;
+}
+
+#explanation {font-size: 1.2em;}
